@@ -34,6 +34,17 @@ input {
 	text-decoration: none;
 	cursor: pointer;
 }
+.button1 {
+	padding: 0.25em 0.5em;
+	border: none;
+	border-radius: 25px;
+	border: 2px solid rgba(7, 3, 46, 0.1);
+	background: #4491db;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	border-style: outset;
+}
 
 /* Site title and top navigation */
 .site-header {
@@ -63,7 +74,9 @@ input {
 	background: #fff;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }
-
+.message--self{
+	margin: 1rem 1rem 1rem 3rem;
+}
 .message__author {
 	font-size: 12px;
 	font-weight: 700;
@@ -79,6 +92,17 @@ input {
 	color: rgba(0,0,0,0.6);
 	text-align: right;
 }
+/* Site title and top navigation */
+.site-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(255,255,255,0.9);
+	background: #fff;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
 
 /* Input area to add a new message */
 .add-message {
@@ -87,8 +111,8 @@ input {
 
 .add-message__input {
 	padding: 0.25em 0.5em;
-	border: none;
+	border: 1px rgb(129, 128, 128);
 	border-radius: 2px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-	background: #fff;
+	background: rgb(212, 211, 211);
 }
